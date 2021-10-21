@@ -4,7 +4,7 @@ const returnTen = (num) => {
 }
 
 const returnStringNum = (num) => {
-    return `Hi, I am ${num} years old.`
+  return `Hi, I am ${num} years old.`
 }
 
 module.exports = {

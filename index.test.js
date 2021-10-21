@@ -9,8 +9,8 @@ describe('testinf returnTen', () => {
 })
 
 describe('testing returnStringNum', () => {
-    it('should return Hi, I am 38 years old', () => {
-        const result = returnStringNum(38)
-        expect(result).toBe('Hi, I am 38 years old.')
-    })
+  it('should return Hi, I am 38 years old', () => {
+    const result = returnStringNum(38)
+    expect(result).toBe('Hi, I am 38 years old.')
+  })
 })
