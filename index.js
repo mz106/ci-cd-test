@@ -1,6 +1,6 @@
 
 const testFunction = () => {
-    return "Hello, world!";
+    return 'Hello, world!';
 };
 
 testFunction();
