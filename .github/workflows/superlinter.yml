@@ -9,6 +9,9 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+        
+      - name: Install packages
+        run: npm
 
       - name: Run Super-Linter
         uses: github/super-linter@v3
